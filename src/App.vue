@@ -1,11 +1,15 @@
 <template>
   <div id="app">
-    <router-view/>
+    <client></client>
   </div>
 </template>
 
 <script>
+import client from './components/Client'
 export default {
+  components: {
+    client
+  },
   name: 'App'
 }
 </script>
